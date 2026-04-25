@@ -6,11 +6,11 @@ int main() {
     int t;
     cin>>t;
     for(int i=0;i<t;i++){
-        int n,k;
+        long long n,k;
         cin>>n>>k;
-       
-        int ans=n%k;
-        if(ans%2==0){
+        // string ans=;
+
+        if(n%2==0 ||(n-k)%2==0 || n%k==0){
             cout<<"YES"<<endl;
         }
         else cout<<"NO"<<endl;
